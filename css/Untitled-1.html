@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+
+<body>
+    <form action="acao_new.php" name="formulario" method="post">
+        <table border="0">
+            <tr>
+                <td bgcolor="#00BFFF" colspan="3"><B>Não é um associado? Faça seu cadastro</B></TD>
+                <td bgcolor="#00008B"><B></B></TD>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nome">Nome:</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="nome">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Nome Completo:</label>
+                <td align="left">
+                    <input type="text" name="Nome Completo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="CPF">CPF:</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="CPF">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>E-mail:</label>
+                </td>
+                <td align="left">
+                    <input type="email" name="E-mail">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Web Site</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="Web Site">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Endereço</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="Endereço">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Bairro">Bairro</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="Bairro">
+                </td>
+                <td>
+                    <label for="Cidade">Cidade</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="Cidade">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Cep">Cep</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="Cep">
+                </td>
+                <td>
+                    <label for="estado">Estado</label>
+                </td>
+                <td align="left">
+                    <select name="UF" style="width: 176px;">
+                        <option value="ac">Acre</option>
+                        <option value="al">Alagoas</option>
+                        <option value="am">Amazonas</option>
+                        <option value="ap">Amapá</option>
+                        <option value="ba">Bahia</option>
+                        <option value="ce">Ceará</option>
+                        <option value="df">Distrito Federal</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="go">Goiás</option>
+                        <option value="ma">Maranhão</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="pa">Pará</option>
+                        <option value="pb">Paraíba</option>
+                        <option value="pr">Paraná</option>
+                        <option value="pe">Pernambuco</option>
+                        <option value="pi">Piauí</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rs">Rio Grande do Sul</option>
+                        <option value="rr">Roraima</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="se">Sergipe</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="to">Tocantins</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="telefone">Telefone:</label>
+                </td>
+                <td align="left">
+                    <input type="tel" name="telefone">
+                </td>
+                <td>
+                    <label for="fax">Fax</label>
+                </td>
+                <td align="left">
+                    <input type="tel" name="Fax">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="dataNacimento">Data Nascimento:</label>
+                </td>
+                <td align="left">
+                    <input type="date" name="Data Nascimento" style="width: 171px;">
+                </td>
+                <td>
+                    <label for="sexo">Sexo:</label>
+                </td>
+                <td align="left">
+                    <input type="radio" value="masculino">M
+                    <input type="radio" value="feminino">F
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Celular">Celular</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="Celular">
+                </td>
+                <td>
+                    <label for="Est.Civil">Est.Civil</label>
+                </td>
+                <td align="left">
+                    <select name="Est.Civil" style="width: 176px;">
+                        <option value="Solteiro">Solteiro</option>
+                        <option value="Casado">Casado</option>
+                        <option value="Viúvo">Viúvo</option>
+                        <option value="Divorciado">Divorciado</option>
+                    </select>
+                </td>
+            <tr>
+                <td>
+                    <label for="login">Login:</label>
+                </td>
+                <td align="left">
+                    <input type="text" name="login">
+                </td>
+                <td>
+                    <label for="pass">Senha:</label>
+                </td>
+                <td align="left">
+                    <input type="password" name="pass">
+                </td>
+            </tr>
+        </table><br>
+        <!-- <table cellspacing="2"> -->
+        <tr>
+            <td>
+                Deseja receber informações sobre os seguintes assuntos abaixo:
+            </td>
+        </tr><br><br>
+        <tr>
+            <td>
+                <input type="checkbox" name="tecnologia" value="tecnologia">Tecnologia
+            </td>
+            <td>
+                <input type="checkbox" name="esportes" value="esportes">Esportes
+            </td>
+            <td>
+                <input type="checkbox" name="automóveis" value="automóveis">Automóveis
+            </td>
+            <td>
+                <input type="checkbox" name="culinaria" value="culinária">Culinária
+            </td>
+            <td>
+                <input type="checkbox" name="politica" value="politica">Politica
+            </td>
+            <td>
+                <input type="checkbox" name="policial" value="policial">Policial
+            </td>
+            <td>
+                <input type="checkbox" name="tempo" value="tempo">Tempo
+            </td>
+        </tr><br><br>
+        <tr>
+            <td align="left">
+                <input type="checkbox" name="Cultura" value="Cultura">Cultura
+            </td>
+
+            <td align="left">
+                <input type="checkbox" name="Economia" value="Economia">Economia
+            </TD>
+
+            <td align="left">
+                <input type="checkbox" name="Jogos" value="Jogos">Jogos
+            </TD>
+
+            <td align="left">
+                <input type="checkbox" name="Educação" value="Educação">Educação
+            </TD>
+
+            <td align="left">
+                <input type="checkbox" name="Viagem" value="Viagem">Viagem
+            </TD>
+
+            <td align="left">
+                <input type="checkbox" name="Empregos" value="Empregos">Empregos
+            </TD>
+
+            <td align="left">
+                <input type="checkbox" name="Modo e Estilo" value="Modo e Estilo">Modo e Estilo
+            </td>
+        </tr><br><br>
+        <tr>
+            <td align="left">
+                <input type="checkbox" name="Li as regras de cadastro e autorizo a criação do usuário"
+                    value="Li as regras de cadastro e autorizo a criação do usuário">Li as regras de cadastro e autorizo
+                a criação do usuário
+            </TD>
+        </TR>
+        </table>
+        <br />
+        <br>
+        <input type="submit" name="acao" value="Confirmar">
+    </form>
+</body>
+
+</html>
